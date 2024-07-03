@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">DiVine Deals</div>
+        <div class="menu">
+            <a href="#">
+                <ion-icon name="close" class="close"></ion-icon>
+            </a>
+            <ul>
+                <li><a href="#" class="under">HOME</a></li>
+                <li><a href="#" class="under">SHOP</a></li>
+                <li><a href="#" class="under">PRODUCTS</a></li>
+                <li><a href="#" class="under">CONTACT US</a></li>
+                <li><a href="#" class="under">CART</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="search products" id="input">
+            <ion-icon class="s" name="search"></ion-icon>
+        </div>
+        <div class="heading">
+            <ul>
+                <li><a href="#" class="under">HOME</a></li>
+                <li><a href="#shop" class="under">SHOP</a></li>
+                <li><a href="#product-container" class="under">PRODUCTS</a></li>
+                <li><a href="#contacts" class="under">CONTACT US</a></li>
+                <li><a href="#" class="under">CART</a></li>
+            </ul>
+        </div>
+        <div class="heading1">
+            <ion-icon name="menu" class="ham"></ion-icon>
+        </div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="section1">
+                <div class="img-slider">
+                    <img src="img/colortshirt.webp" alt="" class="img">
+                    <img src="img/sale.jpg" alt="" class="img">
+                    <img src="img/person.jpeg" alt="" class="img">
+                    <img src="img/gadgets.jpeg" alt="" class="img">
+                    <img src="img/foot.jpeg" alt="" class="img">
+                </div>
+            </div>
+            <div class="section2">
+                <div class="container" id="product-container">
+                    <!-- Items List -->
+                    <div class="items" data-name="SHOES">
+                        <div class="img"><img src="img\shoes.jpeg" alt=""></div>
+                        <div class="name">SHOES</div>
+                        <div class="price">500rs</div>
+                        <div class="info">Good shoes take you good places.</div>
+                        <button class="add-to-cart-btn" data-name="SHOES" data-price="500">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="MEN's T-SHIRT">
+                        <div class="img"><img src="img\tshirt.jpeg" alt=""></div>
+                        <div class="name">MEN's T-SHIRT</div>
+                        <div class="price">700rs</div>
+                        <div class="info">Style is a way to say who you are without having speak.</div>
+                        <button class="add-to-cart-btn" data-name="MEN's T-SHIRT" data-price="700">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="JEANS">
+                        <div class="img"><img src="img/jeans1.png" alt=""></div>
+                        <div class="name">JEANS</div>
+                        <div class="price">900rs</div>
+                        <div class="info">Jeans that fit like they were made for you.</div>
+                        <button class="add-to-cart-btn" data-name="JEANS" data-price="900">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="WATCH">
+                        <div class="img"><img src="img/watches.jpeg" alt=""></div>
+                        <div class="name">WATCH</div>
+                        <div class="price">1500rs</div>
+                        <div class="info">Timeless elegance on your wrist.</div>
+                        <button class="add-to-cart-btn" data-name="WATCH" data-price="1500">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="SMART PHONE">
+                        <div class="img"><img src="img/phones.jpg" alt=""></div>
+                        <div class="name">SMART PHONE</div>
+                        <div class="price">15000rs</div>
+                        <div class="info">Unlocking tomorrow, today.</div>
+                        <button class="add-to-cart-btn" data-name="SMART PHONE" data-price="15000">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="TELEVISION">
+                        <div class="img"><img src="img/tv.jpg" alt=""></div>
+                        <div class="name">TELEVISION</div>
+                        <div class="price">30000rs</div>
+                        <div class="info">Bringing entertainment to life in every pixel.</div>
+                        <button class="add-to-cart-btn" data-name="TELEVISION" data-price="30000">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="HOODIES">
+                        <div class="img"><img src="img/hoodie.jpeg" alt=""></div>
+                        <div class="name">HOODIES</div>
+                        <div class="price">750rs</div>
+                        <div class="info">Stay cozy, stay cool.</div>
+                        <button class="add-to-cart-btn" data-name="HOODIES" data-price="750">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="DINNER SET">
+                        <div class="img"><img src="img/dinner.jpeg" alt=""></div>
+                        <div class="name">DINNER SET</div>
+                        <div class="price">1200rs</div>
+                        <div class="info">Elevate every meal with timeless elegance.</div>
+                        <button class="add-to-cart-btn" data-name="DINNER SET" data-price="1200">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="BLANKETS">
+                        <div class="img"><img src="img/blankets.jpg" alt=""></div>
+                        <div class="name">BLANKETS</div>
+                        <div class="price">1500rs</div>
+                        <div class="info">Wrap yourself in warmth and comfort.</div>
+                        <button class="add-to-cart-btn" data-name="BLANKETS" data-price="1500">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="LAPTOP">
+                        <div class="img"><img src="img/laptop.jpg" alt=""></div>
+                        <div class="name">LAPTOP</div>
+                        <div class="price">55000rs</div>
+                        <div class="info">Powerful, portable, limitless.</div>
+                        <button class="add-to-cart-btn" data-name="LAPTOP" data-price="55000">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="MICROWAVE">
+                        <div class="img"><img src="img/mw.webp" alt=""></div>
+                        <div class="name">MICROWAVE</div>
+                        <div class="price">7500rs</div>
+                        <div class="info">Efficiency at the touch of a button.</div>
+                        <button class="add-to-cart-btn" data-name="MICROWAVE" data-price="7500">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="COFFEE MAKER">
+                        <div class="img"><img src="img/coffee.jpg" alt=""></div>
+                        <div class="name">COFFEE MAKER</div>
+                        <div class="price">2000rs</div>
+                        <div class="info">Your perfect brew, every morning.</div>
+                        <button class="add-to-cart-btn" data-name="COFFEE MAKER" data-price="2000">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="SOFA">
+                        <div class="img"><img src="img/sofa.webp" alt=""></div>
+                        <div class="name">SOFA</div>
+                        <div class="price">23000rs</div>
+                        <div class="info">Comfort that welcomes you home</div>
+                        <button class="add-to-cart-btn" data-name="SOFA" data-price="23000">Add to Cart</button>
+                    </div>
+                    <div class="items" data-name="BOOKS">
+                        <div class="img"><img src="img/books.jpg" alt=""></div>
+                        <div class="name">BOOKS</div>
+                        <div class="price">400rs</div>
+                        <div class="info">Igniting minds with knowledge.</div>
+                        <button class="add-to-cart-btn" data-name="BOOKS" data-price="400">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="shop">
+        <div class="about-img">
+            <img src="img/D.png" width="300" height="350">
+        </div>
+        <div class="about-text">
+            <h1>About DiVine Deals</h1><br>
+            <h4>Welcome to Divine Deals, your ultimate destination for unbeatable offers and exclusive products!<br>
+                Discover a world of quality, affordability, and style with our curated selection of must-have items.<br>
+                Shop smart, save big, and enjoy a seamless shopping experience like never before.<br>
+                Join our community of savvy shoppers and elevate your lifestyle with Divine Deals!</h4>
+        </div>
+    </section>
+    <footer>
+        <div class="footer0" id="contacts">
+            <h1>DiVine Deals</h1>
+        </div>
+        <div class="footer1 ">
+            Connect with us at<div class="social-media">
+                <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell your Products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Buisness</div>
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">Copyright © <h4>DiVine Deals</h4>2024-2030</div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cart = [];
+            const buttons = document.querySelectorAll('.add-to-cart-btn');
+            const searchInput = document.getElementById('input');
+            const productContainer = document.getElementById('product-container');
+            const products = productContainer.querySelectorAll('.items');
+
+            // Add to cart functionality
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const itemName = this.getAttribute('data-name');
+                    const itemPrice = this.getAttribute('data-price');
+                    cart.push({ name: itemName, price: itemPrice });
+                    alert(itemName + ' has been added to your cart!');
+                });
+            });
+
+            // Search functionality
+            searchInput.addEventListener('input', function() {
+                const searchValue = searchInput.value.toLowerCase();
+
+                products.forEach(product => {
+                    const productName = product.getAttribute('data-name').toLowerCase();
+                    if (productName.includes(searchValue)) {
+                        product.style.display = '';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
